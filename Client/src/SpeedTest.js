@@ -106,7 +106,7 @@ export default function ModernSpeedTest() {
 
     setTestPhase('download')
     try {
-      const downloadResponse = await fetch('http://localhost:5000/api/speedtest/download', {
+      const downloadResponse = await fetch('https://server-ngz5.onrender.com', {
         signal,
         mode: 'cors',
       })
@@ -127,7 +127,7 @@ export default function ModernSpeedTest() {
 
     setTestPhase('upload')
     try {
-      const response = await fetch('http://localhost:5000/api/speedtest/upload_ping', {
+      const response = await fetch('http://https://server-ngz5.onrender.com', {
         signal,
         mode: 'cors',
       })
