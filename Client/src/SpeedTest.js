@@ -127,7 +127,7 @@ export default function ModernSpeedTest() {
 
     setTestPhase('upload')
     try {
-      const response = await fetch('http://https://server-ngz5.onrender.com', {
+      const response = await fetch('https://server-upload-l315.onrender.com', {
         signal,
         mode: 'cors',
       })
